@@ -8,6 +8,8 @@ export class TodoList {
     return this.todoItems;
   }
 
+  // Outro teste
+
   addItem(task: string) {
     this.todoItems.push(new TodoItem(task))
   }
